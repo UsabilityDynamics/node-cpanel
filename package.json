@@ -2,7 +2,7 @@
   "author": "Valentin-Costel Hăloiu <vially.ichb@gmail.com>",
   "name": "node-cpanel",
   "description": "cPanel and WHM client.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/vially/cpanel-lib",
   "preferGlobal": true,
   "bin": {
