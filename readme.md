@@ -28,7 +28,7 @@ cpanelClient.call('listaccts', {}, function (err, res) {
 });
 
 cpanelClient.callApi2('AddonDomain', 'listaddondomains', {}, function (err, res) {
-    console.log('Result: %j', res);
+    console.log('Result: %j', argum);
 });
 ```
 
@@ -36,3 +36,9 @@ cpanelClient.callApi2('AddonDomain', 'listaddondomains', {}, function (err, res)
     cpanelClient.call(action, params, callback)
     cpanelClient.callApi1(module, func, args, [user], callback)
     cpanelClient.callApi2(module, func, args, [user], callback)
+
+
+export WHM_HOST=localhost
+export WHM_USERNAME=root
+export WHM_PASSWORD="whm-password"
+export WHM_ACCESS_KEY="blahblah \ blahblah"
